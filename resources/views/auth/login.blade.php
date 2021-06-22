@@ -11,10 +11,9 @@
           <div class="card-body text-center">
             <h2 class="h3 card-title text-center mt-2">ログイン</h2>
 
-            <!-- Googleログインボタン(停止中) -->
-            <!-- <a href="{{ route('login.{provider}', ['provider' => 'google']) }}" class="btn btn-block btn-danger">
+            <a href="{{ route('login.{provider}', ['provider' => 'google']) }}" class="btn btn-block btn-danger">
               <i class="fab fa-google mr1"></i>Googleでログイン
-            </a> -->
+            </a>
 
             @include('error_card_list')
             
